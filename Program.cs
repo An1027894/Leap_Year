@@ -1,4 +1,4 @@
-//Inter a year and determine if it is a leap year
+﻿//Inter a year and determine if it is a leap year
 Console.Write("Enter a year >>>");
 int x = Convert.ToInt32(Console.ReadLine());
 
@@ -34,7 +34,6 @@ else
 }
 
 // It will check the cammonds to see if it a leap year or not
-//then it will print leap year: yes or no depending the combinations/ choices 
 
 if ((x % 4 == 0) && (x % 100 == 0) && (x % 400 == 0))
 {
