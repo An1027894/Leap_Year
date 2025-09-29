@@ -1,0 +1,58 @@
+//Inter a year and determine if it is a leap year
+Console.Write("Enter a year >>>");
+int x = Convert.ToInt32(Console.ReadLine());
+
+/* t will check each command to see If it divisible by 4, 100, or 400
+ then it will print yes or no depending on the if it divisible by those 3 numbers */
+
+ 
+if (x % 4 == 0)
+{
+    Console.WriteLine("Divisible by 4: yes");
+}
+else
+{
+    Console.WriteLine("Divisible by 4: No");
+}
+
+if (x % 100 == 0)
+{
+    Console.WriteLine("Divisible by 100: yes");
+}
+else
+{
+    Console.WriteLine("Divisible by 100: No");
+}
+
+if (x % 400 == 0)
+{
+    Console.WriteLine("Divisible by 400: yes");
+}
+else
+{
+    Console.WriteLine("Divisible by 400: No");
+}
+
+// It will check the cammonds to see if it a leap year or not
+//then it will print leap year: yes or no depending the combinations/ choices 
+
+if ((x % 4 == 0) && (x % 100 == 0) && (x % 400 == 0))
+{
+    Console.WriteLine("Leap year: yes");
+    Console.ReadLine();
+}
+else if ((x % 4 == 0) && (x % 100 != 0) && (x % 400 != 0))
+{
+    Console.WriteLine("Leap year: Yes");
+    Console.ReadLine();
+}
+else if ((x % 4 == 0) && (x % 100 == 0) && (x % 400 != 0))
+{
+    Console.WriteLine("Leap year: No");
+    Console.ReadLine();
+}
+else if ((x % 4 == 0) && (x % 100 == 0) && (x % 400 != 0))
+{
+    Console.WriteLine("Leap year: No");
+    Console.ReadLine();
+}   
