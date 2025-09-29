@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Andrew Neal\\OneDrive - Ozarks Technical Community College\\2025-spring\\programming-25FA-CIS-120-101, CIS-120-CC101\\Leap_Year\\Leap_Year.csproj",
+      "projectUniqueName": "C:\\Users\\Andrew Neal\\OneDrive\\Documents\\GitHub\\Leap_Year\\Leap_Year.csproj",
       "projectName": "Leap_Year",
-      "projectPath": "C:\\Users\\Andrew Neal\\OneDrive - Ozarks Technical Community College\\2025-spring\\programming-25FA-CIS-120-101, CIS-120-CC101\\Leap_Year\\Leap_Year.csproj",
+      "projectPath": "C:\\Users\\Andrew Neal\\OneDrive\\Documents\\GitHub\\Leap_Year\\Leap_Year.csproj",
       "packagesPath": "C:\\Users\\Andrew Neal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Andrew Neal\\OneDrive - Ozarks Technical Community College\\2025-spring\\programming-25FA-CIS-120-101, CIS-120-CC101\\Leap_Year\\obj\\",
+      "outputPath": "C:\\Users\\Andrew Neal\\OneDrive\\Documents\\GitHub\\Leap_Year\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Andrew Neal\\AppData\\Roaming\\NuGet\\NuGet.Config"
